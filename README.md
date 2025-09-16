@@ -51,7 +51,9 @@ src/main/resources/config.properties
 Example:
 
 •db.url=jdbc:mysql://localhost:3306/usermanagement
+
 •db.user=your_username
+
 •db.password=your_password
 
 
