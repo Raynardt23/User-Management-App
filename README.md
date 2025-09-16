@@ -35,24 +35,24 @@ http://localhost:8080/UserManagementApp/login
 
 # Default Login
 
-Username: admin
+•Username: admin
 
-Password: admin123
+•Password: admin123
 
 # Notes
 
-The application automatically creates the database, tables, and default admin user on startup.
+•The application automatically creates the database, tables, and default admin user on startup.
 
-If your MySQL username/password is different from root / password, update it in:
+If your MySQL username/password is different from my username and password, update it in:
 
 src/main/resources/config.properties
 
 
 Example:
 
-db.url=jdbc:mysql://localhost:3306/usermanagement
-db.user=root
-db.password=password
+•db.url=jdbc:mysql://localhost:3306/usermanagement
+•db.user=your_username
+•db.password=your_password
 
 
 If port 8080 is already in use, update Tomcat’s port in conf/server.xml.
