@@ -10,7 +10,9 @@ Apache Tomcat 9+
 MySQL (if not using embedded DB)
 
 # Running the Application
-# Option 1: Deploy WAR (recommended)
+# Option 1: Deploy WAR 
+
+(UserManagementApp/target)
 
 (1) Copy UserManagementApp.war into Tomcat’s webapps/ folder.
 
