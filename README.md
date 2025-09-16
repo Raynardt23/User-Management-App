@@ -1,7 +1,7 @@
 # User-Management-App
 
-User Management Application – Setup Guide
-Requirements
+# User Management Application – Setup Guide
+# Requirements
 
 Java JDK 17+
 
@@ -9,37 +9,37 @@ Apache Tomcat 9+
 
 MySQL (if not using embedded DB)
 
-Running the Application
-Option 1: Deploy WAR (recommended)
+# Running the Application
+# Option 1: Deploy WAR (recommended)
 
-Copy UserManagementApp.war into Tomcat’s webapps/ folder.
+(1) Copy UserManagementApp.war into Tomcat’s webapps/ folder.
 
-Start Tomcat (startup.bat on Windows, startup.sh on Linux/macOS).
+(2) Start Tomcat (startup.bat on Windows, startup.sh on Linux/macOS).
 
-Open in your browser:
+(3) Open in your browser:
 
 http://localhost:8080/UserManagementApp/login
 
-Option 2: Run via NetBeans
+# Option 2: Run via NetBeans
 
-Open the project in Apache NetBeans.
+(1) Open the project in Apache NetBeans.
 
-Right-click → Clean and Build.
+(2) Right-click → Clean and Build.
 
-Right-click → Run.
+(3) Right-click → Run.
 
 💡 NetBeans will automatically deploy the project to its configured Tomcat server.
 You can then access the app at:
 
 http://localhost:8080/UserManagementApp/login
 
-Default Login
+# Default Login
 
 Username: admin
 
 Password: admin123
 
-Notes
+# Notes
 
 The application automatically creates the database, tables, and default admin user on startup.
 
